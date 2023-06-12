@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/edit_title"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="@color/blue_4"
+        android:gravity="center"
+        android:text="@string/edit_money"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_edit_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/add_type"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_title" />
+
+    <Spinner
+        android:id="@+id/sp_edit_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:entries="@array/sp_type"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_edit_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_edit_type" />
+
+    <TextView
+        android:id="@+id/tv_edit_type_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/add_type_name"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_edit_type"
+        app:layout_constraintTop_toBottomOf="@+id/tv_edit_type" />
+
+    <Spinner
+        android:id="@+id/sp_edit_type_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_edit_type_name"
+        app:layout_constraintEnd_toEndOf="@+id/sp_edit_type"
+        app:layout_constraintStart_toStartOf="@+id/sp_edit_type" />
+
+    <TextView
+        android:id="@+id/edit_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/add_date"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_edit_type_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_edit_type_name" />
+
+    <Spinner
+        android:id="@+id/edit_date_month"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/sp_data_month"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edit_date"
+        app:layout_constraintEnd_toStartOf="@+id/edit_tv_month"
+        app:layout_constraintStart_toStartOf="@+id/sp_edit_type_name" />
+
+    <TextView
+        android:id="@+id/edit_tv_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/month"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edit_date_month"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/edit_date_ri"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edit_date_month"
+        app:layout_constraintEnd_toStartOf="@+id/tv_edit_day"
+        app:layout_constraintStart_toEndOf="@+id/edit_tv_month" />
+
+    <TextView
+        android:id="@+id/tv_edit_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/day"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edit_date_ri"
+        app:layout_constraintEnd_toEndOf="@+id/sp_edit_type_name" />
+
+    <TextView
+        android:id="@+id/tv_edit_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/add_money_num"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/edit_date"
+        app:layout_constraintTop_toBottomOf="@+id/edit_date" />
+
+    <EditText
+        android:id="@+id/et_edit_money_num"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/input_add_num"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_edit_money"
+        app:layout_constraintEnd_toEndOf="@+id/sp_edit_type_name"
+        app:layout_constraintStart_toStartOf="@+id/sp_edit_type_name" />
+
+    <Button
+        android:id="@+id/edit_btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue_4"
+        android:text="@string/edit_money"
+        app:layout_constraintEnd_toEndOf="@+id/et_edit_money_num"
+        app:layout_constraintTop_toBottomOf="@+id/et_edit_money_num" />
+
+    <Button
+        android:id="@+id/edit_btn_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/blue_4"
+        android:text="@string/add_no"
+        app:layout_constraintEnd_toStartOf="@+id/edit_btn_ok"
+        app:layout_constraintTop_toTopOf="@+id/edit_btn_ok" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

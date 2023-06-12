@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Moneybag</string>
+    <string name="name">记账神器</string>
+
+    <string name="btn_Start">开始使用</string>
+
+    <string name="input_name">请输入用户名</string>
+    <string name="input_pwd">请输入密码</string>
+    <string name="tv_imgUrl">选择头像:</string>
+    <string name="btn_Login">登录</string>
+    <string name="chk_RememberPwd">记住密码</string>
+    <string name="tv_Register">还没有账号？《立即注册》</string>
+    <string name="login_Ok">登录成功</string>
+
+    <string name="input_null_err">输入不能为空</string>
+    <string name="input_type_err">输入类型错误</string>
+
+    <string name="tv_Register_Ok">注册</string>
+    <string name="tv_name">用户名:</string>
+    <string name="tv_pwd">密码:</string>
+    <string name="tv_pwd_again">再次输入密码:</string>
+
+    <string name="login_error_msg">用户名或者密码错误</string>
+    <string name="pwd_error_msg">密码错误</string>
+    <string name="login_null_err">用户未登录</string>
+
+    <string name="resister_name_length_err">用户名长度为6到20</string>
+    <string name="resister_pwd_length_err">密码长度为6到20</string>
+    <string name="resister_pwd_err">两次密码要一致</string>
+    <string name="img_null_err">请选择头像</string>
+    <string name="resister_msg">注册成功</string>
+
+    <string name="add_money">添加</string>
+    <string name="moneybag">钱包</string>
+    <string name="update">修改信息</string>
+    <string name="add_type">收支类型</string>
+    <string name="add_type_name">分类</string>
+    <string name="add_money_num">金额</string>
+    <string name="add_no">取消</string>
+    <string name="add_date">日期</string>
+    <string name="del_money">删除</string>
+    <string name="update_ok">确认修改</string>
+    <string name="name_cf">用户名已存在</string>
+    <string name="input_add_num">请输入金额</string>
+    <string name="edit_money">修改</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="edit_user">修改个人信息</string>
+    <string name="edit_password">修改个人密码</string>
+    <string name="exit">退出登录</string>
+    <string name="old_pwd">旧密码</string>
+
+
+</resources>

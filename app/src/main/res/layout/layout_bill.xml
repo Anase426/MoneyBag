@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_moneyType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:text="支出类型"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_moneyNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="金额"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_moneyType"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_moneyDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="日期"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_moneyType"
+        app:layout_constraintLeft_toRightOf="@+id/tv_moneyType" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

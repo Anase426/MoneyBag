@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="年份"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tv_fenGe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="-"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_year"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_year"/>
+    <TextView
+        android:id="@+id/tv_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="月份"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_fenGe"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_year"/>
+
+    <TextView
+        android:id="@+id/tv_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="收入"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_year"
+        app:layout_constraintRight_toLeftOf="@+id/tv_out" />
+
+    <TextView
+        android:id="@+id/tv_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="支出"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_in"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

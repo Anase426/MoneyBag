@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Dust Red / 薄暮斗志、奔放 -->
+    <color name="red_1">#fff1f0</color>
+    <color name="red_2">#ffccc7</color>
+    <color name="red_3">#ffa39e</color>
+    <color name="red_4">#ff7875</color>
+    <color name="red_5">#ff4d4f</color>
+    <color name="red_6">#f5222d</color>
+    <color name="red_7">#cf1322</color>
+    <color name="red_8">#a8071a</color>
+    <color name="red_9">#820014</color>
+    <color name="red_10">#5c0011</color>
+
+    <!-- Volcano / 火山醒目、澎湃 -->
+    <color name="volcano_1">#fff2e8</color>
+    <color name="volcano_2">#ffd8bf</color>
+    <color name="volcano_3">#ffbb96</color>
+    <color name="volcano_4">#ff9c6e</color>
+    <color name="volcano_5">#ff7a45</color>
+    <color name="volcano_6">#fa541c</color>
+    <color name="volcano_7">#d4380d</color>
+    <color name="volcano_8">#ad2102</color>
+    <color name="volcano_9">#871400</color>
+    <color name="volcano_10">#610b00</color>
+
+    <!-- Sunset Orange / 日暮温暖、欢快 -->
+    <color name="orange_1">#fff7e6</color>
+    <color name="orange_2">#ffe7ba</color>
+    <color name="orange_3">#ffd591</color>
+    <color name="orange_4">#ffc069</color>
+    <color name="orange_5">#ffa940</color>
+    <color name="orange_6">#fa8c16</color>
+    <color name="orange_7">#d46b08</color>
+    <color name="orange_8">#ad4e00</color>
+    <color name="orange_9">#873800</color>
+    <color name="orange_10">#612500</color>
+
+    <!-- Calendula Gold / 金盏花活力、积极 -->
+    <color name="gold_1">#fffbe6</color>
+    <color name="gold_2">#fff1b8</color>
+    <color name="gold_3">#ffe58f</color>
+    <color name="gold_4">#ffd666</color>
+    <color name="gold_5">#ffc53d</color>
+    <color name="gold_6">#faad14</color>
+    <color name="gold_7">#d48806</color>
+    <color name="gold_8">#ad6800</color>
+    <color name="gold_9">#874d00</color>
+    <color name="gold_10">#613400</color>
+
+    <!-- Sunrise Yellow / 日出出生、阳光 -->
+    <color name="yellow_1">#feffe6</color>
+    <color name="yellow_2">#ffffb8</color>
+    <color name="yellow_3">#fffb8f</color>
+    <color name="yellow_4">#fff566</color>
+    <color name="yellow_5">#ffec3d</color>
+    <color name="yellow_6">#fadb14</color>
+    <color name="yellow_7">#d4b106</color>
+    <color name="yellow_8">#ad8b00</color>
+    <color name="yellow_9">#876800</color>
+    <color name="yellow_10">#614700</color>
+
+    <!-- Lime / 青柠自然、生机 -->
+    <color name="lime_1">#fcffe6</color>
+    <color name="lime_2">#f4ffb8</color>
+    <color name="lime_3">#eaff8f</color>
+    <color name="lime_4">#d3f261</color>
+    <color name="lime_5">#bae637</color>
+    <color name="lime_6">#a0d911</color>
+    <color name="lime_7">#7cb305</color>
+    <color name="lime_8">#5b8c00</color>
+    <color name="lime_9">#3f6600</color>
+    <color name="lime_10">#254000</color>
+
+    <!-- Polar Green / 极光绿健康、创新 -->
+    <color name="green_1">#f6ffed</color>
+    <color name="green_2">#d9f7be</color>
+    <color name="green_3">#b7eb8f</color>
+    <color name="green_4">#95de64</color>
+    <color name="green_5">#73d13d</color>
+    <color name="green_6">#52c41a</color>
+    <color name="green_7">#389e0d</color>
+    <color name="green_8">#237804</color>
+    <color name="green_9">#135200</color>
+    <color name="green_10">#092b00</color>
+
+    <!-- Cyan / 明青希望、坚强 -->
+    <color name="cyan_1">#e6fffb</color>
+    <color name="cyan_2">#b5f5ec</color>
+    <color name="cyan_3">#87e8de</color>
+    <color name="cyan_4">#5cdbd3</color>
+    <color name="cyan_5">#36cfc9</color>
+    <color name="cyan_6">#13c2c2</color>
+    <color name="cyan_7">#08979c</color>
+    <color name="cyan_8">#006d75</color>
+    <color name="cyan_9">#00474f</color>
+    <color name="cyan_10">#002329</color>
+
+    <!-- Daybreak Blue / 拂晓蓝包容、科技、普惠 -->
+    <color name="blue_1">#e6f4ff</color>
+    <color name="blue_2">#bae0ff</color>
+    <color name="blue_3">#91caff</color>
+    <color name="blue_4">#69b1ff</color>
+    <color name="blue_5">#4096ff</color>
+    <color name="blue_6">#1677ff</color>
+    <color name="blue_7">#0958d9</color>
+    <color name="blue_8">#003eb3</color>
+    <color name="blue_9">#002c8c</color>
+    <color name="blue_10">#001d66</color>
+
+    <!-- Geek Blue / 极客蓝探索、钻研 -->
+    <color name="geekblue_1">#f0f5ff</color>
+    <color name="geekblue_2">#d6e4ff</color>
+    <color name="geekblue_3">#adc6ff</color>
+    <color name="geekblue_4">#85a5ff</color>
+    <color name="geekblue_5">#597ef7</color>
+    <color name="geekblue_6">#2f54eb</color>
+    <color name="geekblue_7">#1d39c4</color>
+    <color name="geekblue_8">#10239e</color>
+    <color name="geekblue_9">#061178</color>
+    <color name="geekblue_10">#030852</color>
+
+    <!-- Golden Purple / 酱紫优雅、浪漫 -->
+    <color name="purple_1">#f9f0ff</color>
+    <color name="purple_2">#efdbff</color>
+    <color name="purple_3">#d3adf7</color>
+    <color name="purple_4">#b37feb</color>
+    <color name="purple_5">#9254de</color>
+    <color name="purple_6">#722ed1</color>
+    <color name="purple_7">#531dab</color>
+    <color name="purple_8">#391085</color>
+    <color name="purple_9">#22075e</color>
+    <color name="purple_10">#120338</color>
+
+    <!-- Magenta / 法式洋红明快、感性 -->
+    <color name="magenta_1">#fff0f6</color>
+    <color name="magenta_2">#ffd6e7</color>
+    <color name="magenta_3">#ffadd2</color>
+    <color name="magenta_4">#ff85c0</color>
+    <color name="magenta_5">#f759ab</color>
+    <color name="magenta_6">#eb2f96</color>
+    <color name="magenta_7">#c41d7f</color>
+    <color name="magenta_8">#9e1068</color>
+    <color name="magenta_9">#780650</color>
+    <color name="magenta_10">#520339</color>
+
+</resources>
