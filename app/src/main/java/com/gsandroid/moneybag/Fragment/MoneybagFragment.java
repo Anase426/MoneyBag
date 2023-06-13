@@ -47,7 +47,7 @@ public class MoneybagFragment extends Fragment {
         Button btnAdd = view.findViewById(R.id.btnAdd);
         loginImg = view.findViewById(R.id.loginImg);
 
-        // 初始化夫列表和子列表
+        // 初始化父列表和子列表
         monthList = new ArrayList<Month>();
         moneyMap = new HashMap<Month, List<Money>>();
         initData();

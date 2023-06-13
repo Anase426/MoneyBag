@@ -37,18 +37,23 @@ public class PersonalFragment extends Fragment {
         TextView tvExit = view.findViewById(R.id.tv_exit);
         initData();
 
+        // 修改个人信息按钮
         tvEditUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 showEditContactDialog();
             }
         });
+
+        // 修改密码按钮
         tvEditPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 showEditPassWordContactDialog();
             }
         });
+
+        // 退出登录按钮
         tvExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -83,6 +88,7 @@ public class PersonalFragment extends Fragment {
     private void showEditContactDialog() {
         EditUserContactDialog dialog = new EditUserContactDialog();
         dialog.setOnDialogCompletedListener(new OnDialogCompleted() {
+            // 窗体执行完成后
             @Override
             public void dialogCompleted(String dialogResult) {
                 initData();
