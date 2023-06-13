@@ -67,12 +67,6 @@ public class PersonalFragment extends Fragment {
         return view;
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        initData();
-    }
-
     private void showEditPassWordContactDialog() {
         EditPwdContactDialog dialog = new EditPwdContactDialog();
         dialog.setOnDialogCompletedListener(new OnDialogCompleted() {
